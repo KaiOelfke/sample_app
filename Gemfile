@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+#ruby-gemset=rails3tutorial2ndEd
 gem 'rails', '3.2.16'
 gem 'bootstrap-sass', '2.1'
 ruby '1.9.3'
@@ -19,4 +20,5 @@ group :test do
 end
 group :production do
   gem 'pg', '0.12.2'
+  gem 'rails_12factor', '0.0.2'
 end
