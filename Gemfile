@@ -2,10 +2,12 @@ source 'https://rubygems.org'
 #ruby-gemset=rails3tutorial2ndEd
 gem 'rails', '3.2.16'
 gem 'bootstrap-sass', '2.1'
+gem 'bcrypt-ruby', '3.0.1'
 ruby '1.9.3'
 group :development, :test do
   gem 'sqlite3', '1.3.5'
   gem 'rspec-rails', '2.11.0'
+  gem 'annotate', '2.5.0'
 end
 # Gems used only for assets and not required # in production environments by default. 
 group :assets do
